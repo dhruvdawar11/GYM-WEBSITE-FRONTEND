@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    color: white;
+    justify-content: space-between;    
+    
+    height: auto;
+    flex-wrap:wrap;
+    align-items: flex-start;
+}
+.start{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: hotpink;
+}
+a:hover{
+    color:cadetblue;
+}
+.search{
+    border-radius: 14px;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: yellow;
+    flex-direction: column;
+}
+.a{
+    color: white;
+}
+.btn{
+    background-color: orange;
+    color: wheat;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aqua;
+    color: hotpink;
+}
